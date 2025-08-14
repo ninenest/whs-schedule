@@ -1,0 +1,48 @@
+{
+  "schoolYear": {
+    "start": "2025-08-13T00:00:00",
+    "end": "2026-05-22T23:59:59"
+  },
+  "offDays": [
+    "2025-09-01", "2025-09-29",
+    "2025-10-16", "2025-10-17", "2025-10-20",
+    "2025-11-26", "2025-11-27", "2025-11-28",
+    "2025-12-22", "2025-12-23", "2025-12-24", "2025-12-25",
+    "2025-12-26", "2025-12-27", "2025-12-28", "2025-12-29",
+    "2025-12-30", "2025-12-31",
+    "2026-01-01", "2026-01-02", "2026-01-05", "2026-01-19",
+    "2026-02-06", "2026-02-16",
+    "2026-03-09", "2026-03-23",
+    "2026-04-06", "2026-04-07", "2026-04-08", "2026-04-09", "2026-04-10"
+  ],
+  "schedules": {
+    "regular": [
+      {"code": ["A1", "B5"], "start": "07:45", "end": "09:04"},
+      {"code": ["A2", "B6"], "start": "09:14", "end": "10:33"},
+      {"code": ["A3", "B7"], "start": "10:43", "end": "12:02"},
+      {"code": ["LUNCH"], "start": "12:02", "end": "12:52"},
+      {"code": ["A4", "B8"], "start": "12:56", "end": "14:15"}
+    ],
+    "wednesday": [
+      {"code": ["A1", "B5"], "start": "07:45", "end": "08:50"},
+      {"code": ["A2", "B6"], "start": "09:00", "end": "10:05"},
+      {"code": ["A3", "B7"], "start": "10:15", "end": "11:20"},
+      {"code": ["A4", "B8"], "start": "11:30", "end": "12:35"},
+      {"code": ["LUNCH"], "start": "12:35", "end": "13:15"}
+    ]
+  },
+  "classes": {
+    "A": [
+      {"period": "A1", "name": "Orchestra – Inter", "room": "A102", "teacher": "Ashley Braithwaite"},
+      {"period": "A2", "name": "Ancient World History", "room": "F314", "teacher": "Michael Felix"},
+      {"period": "A3", "name": "Chemistry", "room": "D152", "teacher": "Justin Meek"},
+      {"period": "A4", "name": "Game Dev Fundamentals", "room": "B111", "teacher": "Benjamin Test"}
+    ],
+    "B": [
+      {"period": "B5", "name": "English 10", "room": "C246", "teacher": "Anna Dinsmoor"},
+      {"period": "B6", "name": "Secondary Math 2", "room": "C140", "teacher": "Jeffrey Derbidge"},
+      {"period": "B7", "name": "Health", "room": "G199", "teacher": "Tony Ingle"},
+      {"period": "B8", "name": "Aviation History", "room": "B108", "teacher": "Douglas Livingston"}
+    ]
+  }
+}

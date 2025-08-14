@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1" />
+<title>School Schedule</title>
+<link rel="icon" type="image/png" href="logo.png">
+<!-- iOS Web App Meta Tags -->
+<meta name="apple-mobile-web-app-capable" content="yes">
+<meta name="apple-mobile-web-app-status-bar-style" content="black-translucent">
+<meta name="apple-mobile-web-app-title" content="School Schedule">
+<link rel="apple-touch-icon" href="logo.png">
+<link rel="apple-touch-icon" sizes="152x152" href="logo.png">
+<link rel="apple-touch-icon" sizes="180x180" href="logo.png">
+<link rel="apple-touch-icon" sizes="167x167" href="logo.png">
+<!-- PWA Meta Tags -->
+<meta name="theme-color" content="#0a0f1a">
+<link rel="stylesheet" href="styles.css">
+<script src="https://cdnjs.cloudflare.com/ajax/libs/ical.js/1.4.0/ical.min.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/dayjs/1.11.10/dayjs.min.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/dayjs/1.11.10/plugin/duration.min.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/dayjs/1.11.10/plugin/relativeTime.min.js"></script>
+</head>
+<body>
+<header>
+  <div class="wrap">
+    <div class="controls">
+      <div class="header-title">
+        <img src="logo.png" alt="Westlake Logo" class="logo">
+        <h1>WHS Schedule</h1>
+      </div>
+    </div>
+    <div class="muted" id="today"></div>
+    <span class="pill" id="status"></span>
+    <div class="quick-links">
+      <a href="http://alpine.instructure.com/login/saml/36" target="_blank" class="quick-link canvas-link" title="Canvas">
+        <img src="https://www.instructure.com/sites/default/files/image/2021-12/canvas_reversed_logo.png" alt="Canvas" width="16" height="16">
+        Canvas
+      </a>
+      <a href="https://skyward.alpinedistrict.org/" target="_blank" class="quick-link skyward-link" title="Skyward">
+        <img src="https://skyward.com/apple-touch-icon.png" alt="Skyward" width="16" height="16">
+        Skyward
+      </a>
+    </div>
+    <button id="debugToggle" class="debug-button">🕐</button>
+    <div id="debugControls">
+      <label>Date/Time Override: <input type="datetime-local" id="debugDateTime"></label>
+      <button id="resetDebug" class="debug-reset">Reset</button>
+    </div>
+  </div>
+</header>
+<main class="wrap">
+  <section class="card">
+    <h3>Today's Periods</h3>
+    <div id="periods"></div>
+  </section>
+  <section class="card">
+    <h3>Today's Events</h3>
+    <div id="events"></div>
+  </section>
+  <pre id="testlog"></pre>
+</main>
+<script src="script.js"></script>
+</body>
+</html>
