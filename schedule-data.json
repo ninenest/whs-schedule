@@ -33,16 +33,16 @@
   },
   "classes": {
     "A": [
-      {"period": "A1", "name": "Orchestra", "room": "A102", "teacher": "Ashley Braithwaite"},
-      {"period": "A2", "name": "Culinary", "room": "B123", "teacher": "Candace Wilson"},
-      {"period": "A3", "name": "Chemistry", "room": "D152", "teacher": "Justin Meek"},
-      {"period": "A4", "name": "Video Production", "room": "B105", "teacher": "Nathan Pickett"}
+      {"period": "A1", "name": "English 11", "room": "C229", "teacher": "Kai Mikulecky"},
+      {"period": "A2", "name": "Orchestra +ADV", "room": "A102", "teacher": "Ashley Braithwaite"},
+      {"period": "A3", "name": "AP Psychology", "room": "F307", "teacher": "Catherine Miner"},
+      {"period": "A4", "name": "Commercial Photo 1", "room": "D257", "teacher": "Rebecca Dajany"}
     ],
     "B": [
-      {"period": "B5", "name": "English", "room": "C231", "teacher": "Elisabeth Jeffries"},
-      {"period": "B6", "name": "Secondary Math", "room": "C140", "teacher": "Jeffrey Derbidge"},
-      {"period": "B7", "name": "Fitness", "room": "E78", "teacher": "Erkin Tadzhimetov"},
-      {"period": "B8", "name": "Meteorology", "room": "G188", "teacher": "Jake Southworth"}
+      {"period": "B5", "name": "Financial Lit", "room": "G194", "teacher": "Mark Ercanbrack"},
+      {"period": "B6", "name": "Gov & Citizenship", "room": "F314", "teacher": "Michael Felix"},
+      {"period": "B7", "name": "AP US History", "room": "F303", "teacher": "Annie Jolly"},
+      {"period": "B8", "name": "Sec Math 3 Extended Topics", "room": "C136", "teacher": "Barbara Stone"}
     ]
   }
 }
